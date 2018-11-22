@@ -3,6 +3,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Henny+Penny');
 
+@font-face{
+    font-family: "Ribeye Marrow";
+    src: url("1Fonts/ribeye-marrow.woff2");
+}
+
+@font-face{
+    font-family: "Just Another Hand";
+    src: url("1Fonts/just-another-hand.woff2");
+}
+ 
+@font-face{
+    font-family: "lobster";
+    src: url("1Fonts/lobster.woff2");
+}
+
+@font-face{
+    font-family: "Mystery quest";
+    src: url("1Fonts/mystery-quest.woff2");
+}
 
    body{
         background-color: #EECCAA;
@@ -13,7 +32,7 @@
         letter-spacing: 1.5rem;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'Henny Penny', 
+        font-family: 'lobster', 
         cursive;
     }
 
@@ -36,9 +55,9 @@
 
     p.español{
         margin: 0 0 3rem;
-        color: white;
-        font-family: "Open Sans",
-        sans-serif;
+        color: blue;
+        font-family: 'Mystery quest', 
+        cursive;
         font-size: 3.5rem;
         letter-spacing: 1px;
         text-align: right;
