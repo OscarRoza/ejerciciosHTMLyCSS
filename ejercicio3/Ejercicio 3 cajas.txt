@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Ejercicio cajas-02</title></head>
+    <style type="text/css">
+        body {
+            margin: 0;
+            border-right: 10px solid #fff176;
+            border-left: 10px solid #fff176;
+            background-color: white;
+            font-family: sans-serif;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+            background-color: #fff176;
+        }
+        .efemeride {
+            float: left;
+            width: 34em;
+            border: 5px solid #fbc02d;
+            border-top: none;
+            margin: 10px;
+            background-color: #ffeb3b;
+        }
+        .efemeride h1 {
+            color: brown;
+            background-color: #fbc02d;
+            text-align: left;
+        }
+        .texto {
+            float: left;
+            width: 15em;
+            background-color: #fdd835;
+            border: #f57f17 5px solid;
+            border-top: none;
+            margin: 10px;
+        }
+        div.texto h1 {
+            padding-left: 5px;
+            background-color: #f57f17;
+            color: white;
+            font-size: 150%;
+        }
+        p {
+            margin: 5px;
+        }
+        #footer {
+            clear: both;
+        }
+        #footer p {
+            margin: 0;
+            background-color: #fff176;
+            font-size: 80%;
+        }
+        html {
+            margin-bottom: 0;
+            padding-bottom: 2rem;
+        }
+    </style>
+</head>
+    
+
+<body>
+    <h1>Sucedió un 14 de diciembre</h1>
+    <div class="efemeride">
+        <h1>Edad Media</h1>
+        <div class="texto">
+            <h1>557</h1>
+            <p>Un violento terremoto destruye gran parte de Constantinopla.</p>
+        </div>
+        <div class="texto">
+            <h1>1287</h1>
+            <p>Graves inundaciones en el noroeste de Holanda provocan más de 50.000 muertos.</p>
+        </div>
+    </div>
+    <div class="efemeride">
+        <h1>Edad Moderna</h1>
+        <div class="texto">
+            <h1>1542</h1>
+            <p>María Estuardo es proclamada Reina de Escocia.</p>
+        </div>
+        <div class="texto">
+            <h1>1782</h1>
+            <p>Los hermanos Montgolfier realizan el primer vuelo de prueba en globo.</p>
+        </div>
+    </div>
+    <div class="efemeride">
+        <h1>Edad Contemporánea</h1>
+        <div class="texto">
+            <h1>1812</h1>
+            <p>El ejército napoleónico se retira derrotado en Rusia.</p>
+        </div>
+        <div class="texto">
+            <h1>1819</h1>
+            <p>Alabama se convierte en el 22º estado de EEUU.</p>
+        </div>
+        <div class="texto">
+            <h1>1900</h1>
+            <p>Max Planck presenta en una conferencia la hipótesis de que la energía electromagnética sólo se puede emitir en cantidades discretas, no contínuas.</p>
+        </div>
+        <div class="texto">
+            <h1>1911</h1>
+            <p>La expedición dirigida por Roald Amundsen alcanza el polo Sur.</p>
+        </div>
+        <div class="texto">
+            <h1>1947</h1>
+            <p>El estadio Santiago Bernabéu (del Real Madrid F.C.) acoge su primer partido de fútbol.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Información obtenida en la Wikipedia</p>
+    </div>
+</body>
+</html>
