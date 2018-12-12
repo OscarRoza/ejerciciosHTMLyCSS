@@ -1,0 +1,67 @@
+    
+    body{
+        background-color: whitesmoke;
+        text-align: justify;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1{
+        background-color: #616161;
+        color: white;
+        text-align: center;
+    }
+    body{
+        background-color: whitesmoke;
+        text-align: justify;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1{
+        background-color: #616161;
+        color: white;
+        text-align: center;
+    }
+    div.encabezado2{
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 10px;
+        border: solid gray;
+        background-color: white;
+        font-family: lucida handWriting, lucida, san-serif;
+    }
+    img{
+        float: left;
+        border: solid 5px #4CAF50;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+
+    figcaption{
+        text-align: center;
+        font-size: 1.25em;
+        font-family: italic;
+ 
+    }
+
+    strong{
+        color: #4caf50;
+        font-size: 1.2rem;
+    }
+    a{   
+        background-color: gray;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    div.foto{
+        border: 2px solid gray;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        float: left;
+    }
+
+    
